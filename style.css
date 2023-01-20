@@ -1,0 +1,53 @@
+body{
+    background: rgb(37, 37, 75);
+}
+.Organize-Input {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+.Titulo {
+    display: flex;    
+    justify-content: center;
+    color: aliceblue;              
+}
+
+#nomecliente{
+    outline: none;
+    width: 600px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    border: none;
+}
+#Botao {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #fff;
+  }
+
+#excel {
+    display: fixed;
+    position: fixed;
+    bottom: 765px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    transition: .4s;
+    left: 571px;       
+}  
+
+#excel> a img {
+    display: block;
+    position: fixed;
+    width: 34px;
+    height: 34px;
+}
+
